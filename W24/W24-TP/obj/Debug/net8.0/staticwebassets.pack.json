@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\W24-TP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\W24-TP.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\css\\card.css",
+      "PackagePath": "staticwebassets\\css\\card.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\Main_Page_Background.png",
+      "PackagePath": "staticwebassets\\img\\Main_Page_Background.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\acheron.png",
+      "PackagePath": "staticwebassets\\img\\acheron.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\argenti.png",
+      "PackagePath": "staticwebassets\\img\\argenti.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\arlan.png",
+      "PackagePath": "staticwebassets\\img\\arlan.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\asta.png",
+      "PackagePath": "staticwebassets\\img\\asta.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\aventurine.png",
+      "PackagePath": "staticwebassets\\img\\aventurine.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\bailu.png",
+      "PackagePath": "staticwebassets\\img\\bailu.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\banner.png",
+      "PackagePath": "staticwebassets\\img\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\black_swan.png",
+      "PackagePath": "staticwebassets\\img\\black_swan.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\blade.png",
+      "PackagePath": "staticwebassets\\img\\blade.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\bronya.png",
+      "PackagePath": "staticwebassets\\img\\bronya.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\clara.png",
+      "PackagePath": "staticwebassets\\img\\clara.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\dan_heng.png",
+      "PackagePath": "staticwebassets\\img\\dan_heng.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\dan_heng_IL.png",
+      "PackagePath": "staticwebassets\\img\\dan_heng_IL.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\dr_ratio.png",
+      "PackagePath": "staticwebassets\\img\\dr_ratio.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\fu_xuan.png",
+      "PackagePath": "staticwebassets\\img\\fu_xuan.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\gallagher.png",
+      "PackagePath": "staticwebassets\\img\\gallagher.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\gepard.png",
+      "PackagePath": "staticwebassets\\img\\gepard.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\guinaifen.png",
+      "PackagePath": "staticwebassets\\img\\guinaifen.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\hanya.png",
+      "PackagePath": "staticwebassets\\img\\hanya.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\herta.png",
+      "PackagePath": "staticwebassets\\img\\herta.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\himeko.png",
+      "PackagePath": "staticwebassets\\img\\himeko.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\hook.png",
+      "PackagePath": "staticwebassets\\img\\hook.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\huohuo.png",
+      "PackagePath": "staticwebassets\\img\\huohuo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\jing_yuan.png",
+      "PackagePath": "staticwebassets\\img\\jing_yuan.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\jingliu.png",
+      "PackagePath": "staticwebassets\\img\\jingliu.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\kafka.png",
+      "PackagePath": "staticwebassets\\img\\kafka.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\luka.png",
+      "PackagePath": "staticwebassets\\img\\luka.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\luocha.png",
+      "PackagePath": "staticwebassets\\img\\luocha.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\lynx.png",
+      "PackagePath": "staticwebassets\\img\\lynx.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\march_7th.png",
+      "PackagePath": "staticwebassets\\img\\march_7th.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\misha.png",
+      "PackagePath": "staticwebassets\\img\\misha.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\natasha.png",
+      "PackagePath": "staticwebassets\\img\\natasha.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\pela.png",
+      "PackagePath": "staticwebassets\\img\\pela.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\qingque.png",
+      "PackagePath": "staticwebassets\\img\\qingque.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\ruan_mei.png",
+      "PackagePath": "staticwebassets\\img\\ruan_mei.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\sampo.png",
+      "PackagePath": "staticwebassets\\img\\sampo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\seele.png",
+      "PackagePath": "staticwebassets\\img\\seele.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\serval.png",
+      "PackagePath": "staticwebassets\\img\\serval.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\silver_wolf.png",
+      "PackagePath": "staticwebassets\\img\\silver_wolf.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\sparkle.png",
+      "PackagePath": "staticwebassets\\img\\sparkle.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\sushang.png",
+      "PackagePath": "staticwebassets\\img\\sushang.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\tingyun.png",
+      "PackagePath": "staticwebassets\\img\\tingyun.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\topaz.png",
+      "PackagePath": "staticwebassets\\img\\topaz.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\trailblazer.png",
+      "PackagePath": "staticwebassets\\img\\trailblazer.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\welt.png",
+      "PackagePath": "staticwebassets\\img\\welt.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\xueyi.png",
+      "PackagePath": "staticwebassets\\img\\xueyi.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\yanqing.png",
+      "PackagePath": "staticwebassets\\img\\yanqing.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\img\\yukong.png",
+      "PackagePath": "staticwebassets\\img\\yukong.png"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.W24-TP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.W24-TP.props",
+      "PackagePath": "build\\W24-TP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.W24-TP.props",
+      "PackagePath": "buildMultiTargeting\\W24-TP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.W24-TP.props",
+      "PackagePath": "buildTransitive\\W24-TP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

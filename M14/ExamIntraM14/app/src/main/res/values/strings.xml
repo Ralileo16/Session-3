@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exam_M14</string>
+    <string name="decompose">Decompose</string>
+    <string name="back">Back</string>
+    <string name="consonne">Consonne :</string>
+    <string name="voyelle">Voyelle :</string>
+</resources>

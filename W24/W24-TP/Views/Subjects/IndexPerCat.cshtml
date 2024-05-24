@@ -1,0 +1,156 @@
+﻿@using System.Security.Claims
+@model PaginatedList<W24_TP.Models.Subject>
+
+@{
+	ViewData["Title"] = "IndexPerCat";
+	var subjectId = ViewContext.RouteData.Values["id"];
+	var firstModel = Model.FirstOrDefault();
+
+	var activeSubject = Model.Where(sub => sub.Active);
+
+	var sel = new List<SelectListItem>()
+{
+		new SelectListItem(){Text="5",Value="5" },
+		new SelectListItem(){Text="10",Value="10" },
+		new SelectListItem(){Text="15",Value="15" },
+		new SelectListItem(){Text="20",Value="20" }
+	};
+}
+
+<style>
+	.card {
+		background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,128,1) 100%);
+	}
+</style>
+
+@if (firstModel != null && firstModel.FkCategoryNavigation != null)
+{
+	<div class="row">
+		<div class="col">
+			<h1>@Html.DisplayFor(model => firstModel.FkCategoryNavigation.Name)</h1>
+		</div>
+		<div class="col d-flex justify-content-end align-items-center">
+			<a class="btn btn-primary" asp-area="" asp-controller="Subjects" asp-action="CreatePerCat" asp-route-id="@firstModel.FkCategoryNavigation.Id">Create new topic for @Html.DisplayFor(model => firstModel.FkCategoryNavigation.Name)</a>
+		</div>
+	</div>
+}
+
+@if (!activeSubject.Any())
+{
+	<div class="row">
+		<div class="col">
+			<h1>No Topics created yet</h1>
+		</div>
+		<div class="col d-flex justify-content-end align-items-center">
+			<a class="btn btn-primary" asp-area="" asp-controller="Subjects" asp-action="CreatePerCat" asp-route-id="@subjectId">Create the first topic</a>
+		</div>
+	</div>
+}
+
+@foreach (var sub in Model)
+{
+	if (sub.Active)
+	{
+		<div class="card" style="margin-bottom: 1rem;">
+			<img class="card-img-top" />
+			<div class="card-body">
+				<div class="d-flex flex-row justify-content-between">
+					<h5 class="card-title" style="flex: 1;">@sub.Title</h5>
+					<p class="text-muted">Views : @sub.View</p>
+				</div>
+				<div class="d-flex flex-row justify-content-between">
+					<div>
+						<h6 class="card-title" style="flex: 1;">u/@sub.FkUserNavigation!.UserName</h6>
+						<p class="card-title text-muted" style="flex: 1;">@sub.Date</p>
+					</div>
+					<div>
+						@if (!sub.Replies.Any())
+						{
+							<p class="text-muted">No replies yet</p>
+						}
+						else
+						{
+							<p class="text-muted">Lastest reply from : u/@sub.Replies.OrderBy(s => s.Date).First().FkUserNavigation!.UserName
+							</p>
+							<p class="text-muted">Dated : @sub.Replies.OrderBy(s => s.Date).First().Date</p>
+						}
+					</div>
+				</div>
+				<hr />
+				<div class="card-body">@Html.Raw(sub.Body)</div>
+				<hr />
+				<div class="d-flex flex-row justify-content-between">
+					<a class="btn btn-outline-primary card-btn" style="height:auto;" asp-area="" asp-controller="Replies" asp-action="IndexPerSub" asp-route-id="@sub.Id">View all @sub.Replies.Count(r => r.Active) messages</a>
+					@if (User.FindFirstValue(ClaimTypes.NameIdentifier) == sub.FkUserNavigation.Id)
+					{
+						<a class="btn btn-outline-warning card-btn" asp-area="" asp-controller="Subjects" asp-action="EditUser" asp-route-id="@sub.Id"><i class="fa-solid fa-pen"></i></a>
+					}
+				</div>
+			</div>
+		</div>
+	}
+}
+
+<div class="d-flex flex-row justify-content-between">
+	<div class="d-flex flex-row justify-content-between">
+		<h6>Items per page :</h6>
+		<div id="divSelectList">
+			<select id="selectlist" asp-items=sel></select>
+		</div>
+	</div>
+	<div>
+		@* Display Code *@
+		@{
+			string prevDisabled = Model.HasPreviousPage ? "" : "disabled";
+			string nextDisabled = Model.HasNextPage ? "" : "disabled";
+		}
+
+		@* Navigation *@
+		@* First *@
+		<a asp-action="IndexPerCat" asp-route-pageNumber="1" asp-route-customPageSize="@ViewData["customPageSize"]"
+		   class="btn btn-primary @prevDisabled">FIRST</a>
+		@* Previous *@
+		<a asp-action="IndexPerCat" asp-route-pageNumber="@(Model.PageIndex-1)" asp-route-customPageSize="@ViewData["customPageSize"]"
+		   class="btn btn-primary @prevDisabled">PREV</a>
+
+		@*CurrentPage*@
+		<a class="disabled btn btn-primary">@Model.PageIndex / @Model.TotalPages</a>
+
+		@* Next *@
+		<a asp-action="IndexPerCat" asp-route-pageNumber="@(Model.PageIndex+1)" asp-route-customPageSize="@ViewData["customPageSize"]"
+		   class="btn btn-primary @nextDisabled">NEXT</a>
+		@* Last *@
+		<a asp-action="IndexPerCat" asp-route-pageNumber="@Model.TotalPages" asp-route-customPageSize="@ViewData["customPageSize"]"
+		   class="btn btn-primary @nextDisabled">LAST</a>
+	</div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+	var getUrlParameter = function getUrlParameter(sParam) {
+		var sPageURL = window.location.search.substring(1),
+			sURLVariables = sPageURL.split('&'),
+			sParameterName,
+			i;
+
+		for (i = 0; i < sURLVariables.length; i++) {
+			sParameterName = sURLVariables[i].split('=');
+
+			if (sParameterName[0] === sParam) {
+				return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+			}
+		}
+		return false;
+	};
+
+	$('#selectlist').val(getUrlParameter("customPageSize")).change();
+	console.log(getUrlParameter("customPageSize"))
+	$(function () {
+		$('#selectlist').change(function () {
+			window.location.href = window.location.pathname + "?customPageSize=" + $(this).val();
+		})
+	});
+</script>
+
+

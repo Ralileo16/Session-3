@@ -1,0 +1,99 @@
+
+            <!doctype html>
+<html lang='fr'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Rapport</title>
+	<style>
+		table {
+			width: 90%;
+			margin: 1em auto;
+			border-collapse: collapse;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: 0.5em;
+			text-align: left;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+		.program {
+			margin: 2em 0;
+		}
+		.program h2 {
+			text-align: center;
+			margin-top: 2em;
+		}
+	</style>
+</head>
+<body>
+	<h1>Rapport Étudiants</h1>
+	<div id='content'></div>
+	
+	<script>
+		let data = JSON.parse('[{"etu_da":"1234560","pro_no":"LEA.1A","etu_nom":"Tremblay","etu_prenom":"Robert","etu_sexe":"M","etu_adresse":"55 rue de l`esperanto","etu_ville":"Chicoutimi","etu_province":"Québec","etu_telephone":"(418) 882-0011","etu_codepostal":"G1H-8Y3"},{"etu_da":"1234561","pro_no":"LEA.1A","etu_nom":"Tremblay","etu_prenom":"Suzanne","etu_sexe":"F","etu_adresse":"1055 Racine","etu_ville":"LaBaie","etu_province":"Québec","etu_telephone":"(418) 882-1234","etu_codepostal":"G7H-2Y3"},{"etu_da":"1234562","pro_no":"LEA.1A","etu_nom":"Simard","etu_prenom":"Nicole","etu_sexe":"F","etu_adresse":"33 Bégin","etu_ville":"jonquière","etu_province":"Québec","etu_telephone":"(418) 544-1292","etu_codepostal":"G7H-2R5"},{"etu_da":"1234563","pro_no":"LEA.1A","etu_nom":"Potvin","etu_prenom":"Michel","etu_sexe":"M","etu_adresse":"44 rue des sapins","etu_ville":"Chicoutimi","etu_province":"Québec","etu_telephone":"(418) 549-1244","etu_codepostal":"G7H-8X8"},{"etu_da":"1234564","pro_no":"LEA.1A","etu_nom":"Gagnon","etu_prenom":"Pierre","etu_sexe":"M","etu_adresse":"525 des perdrix","etu_ville":"Alma","etu_province":"Québec","etu_telephone":"(418) 678-1111","etu_codepostal":"G4H-4F3"},{"etu_da":"1234565","pro_no":"LEA.1B","etu_nom":"Gagnon","etu_prenom":"Paul","etu_sexe":"M","etu_adresse":"22 des prés","etu_ville":"Chicoutimi","etu_province":"Québec","etu_telephone":"(418) 532-2222","etu_codepostal":"G3A-2S3"},{"etu_da":"1234566","pro_no":"LEA.1B","etu_nom":"Gagné","etu_prenom":"Nicole","etu_sexe":"F","etu_adresse":"467 de la réserve","etu_ville":"Alma","etu_province":"Québec","etu_telephone":"(418) 555-3333","etu_codepostal":"G4H-4T5"},{"etu_da":"1234567","pro_no":"LEA.1B","etu_nom":"Ferland","etu_prenom":"Martine","etu_sexe":"F","etu_adresse":"234 de la montagne","etu_ville":"Chicoutimi","etu_province":"Québec","etu_telephone":"(417) 547-4444","etu_codepostal":"G6H-9J9"},{"etu_da":"1234568","pro_no":"LEA.1B","etu_nom":"Côté","etu_prenom":"Benoit","etu_sexe":"M","etu_adresse":"1200 du pont","etu_ville":"Alma","etu_province":"Québec","etu_telephone":"(417) 333-5555","etu_codepostal":"H0H-3D3"},{"etu_da":"1234569","pro_no":"LEA.1B","etu_nom":"Bouchard","etu_prenom":"Alain","etu_sexe":"M","etu_adresse":"77 des peupliers","etu_ville":"LaBaie","etu_province":"Québec","etu_telephone":"(418) 544-8888","etu_codepostal":"X1H-2W2"},{"etu_da":"1234570","pro_no":"LEA.1B","etu_nom":"Bouchard","etu_prenom":"Jean","etu_sexe":"M","etu_adresse":"999 des roses","etu_ville":"LaBaie","etu_province":"Québec","etu_telephone":"(418) 544-8899","etu_codepostal":"R5R-7Y6"},{"etu_da":"4206969","pro_no":"LEA.1C","etu_nom":"jhgjhgjghjhg","etu_prenom":"hgjhgjhgjgh","etu_sexe":"M","etu_adresse":"dwadwada","etu_ville":"dwada","etu_province":"dadwadaw","etu_telephone":"(418) 999-9999","etu_codepostal":"G3A-2S3"}]');
+		let content = document.getElementById('content');
+		console.log(data)
+		
+		let proNoSet = new Set();
+		
+		data.forEach(student => {
+			proNoSet.add(student.pro_no);
+		});
+		
+		console.log(proNoSet)
+		
+		proNoSet.forEach(prog => {
+			let title = document.createElement('h3');
+			title.innerHTML = prog
+			content.appendChild(title)
+			let htmlTable = document.createElement('table');
+			
+			htmlTable.style.width = '90%';
+			htmlTable.style.margin = '1em auto 1em auto';
+			
+			let htmlHead = document.createElement('thead');
+			let htmlRow = document.createElement('tr');
+			htmlHead.style.height = '1.5 em';
+			htmlRow.style.height = '1.5 em';
+			
+			let htmlTableheader;
+			let props = Object.keys(data[0]);
+			
+			props.forEach(prop => { 
+				htmlTableheader = document.createElement('th');
+				htmlTableheader.innerText = prop;
+				htmlTableheader.style.textAlign = 'left';
+				htmlRow.appendChild(htmlTableheader);
+			});
+			
+			htmlHead.appendChild(htmlRow);
+			htmlTable.appendChild(htmlHead);
+			
+			let htmlTableBody = document.createElement('tbody');
+			let htmlTableData;
+			
+			data.forEach(student => {
+				if(student.pro_no == prog) {
+					htmlRow = document.createElement('tr');
+					let studentProps = Object.values(student);
+					
+					studentProps.forEach(propStudent => { 
+						htmlTableData = document.createElement('td');
+						htmlTableData.innerText = propStudent?.toString() ?? '';
+						htmlRow.appendChild(htmlTableData);
+						
+					});
+					
+					htmlTableBody.appendChild(htmlRow);
+				}
+			});
+			htmlTable.appendChild(htmlTableBody);
+			
+			content.appendChild(htmlTable);
+		})
+	</script>
+</body>
+</html>

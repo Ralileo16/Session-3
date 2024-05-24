@@ -1,0 +1,104 @@
+﻿@{
+	bool isAdmin = User.IsInRole("Admin");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - W24_TP</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/W24_TP.styles.css" asp-append-version="true" />
+	<script src="https://kit.fontawesome.com/fc5dab9be8.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.tiny.cloud/1/g6sjjvxjkntzgmcadd1qfbkt6j18u4ygx60s0l6d1z3bo8mx/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" asp-area="" asp-controller="Categories" asp-action="Index">W24_TP</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse d-sm-inline-flex">
+					<ul class="navbar-nav flex-grow-1">
+						<div class="nav-item text-dark dropdown dropdownnav">
+							<a asp-area="" asp-controller="Categories" asp-action="Index">
+								<button class="btn btn-outline-dark dropdown-toggle"
+										type="button"
+										id="dropdownMenuButton"
+										data-mdb-toggle="dropdown"
+										aria-expanded="false">
+									Characters
+								</button>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								<li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Index">Browse</a></li>
+								@if (isAdmin)
+								{
+									<li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Create">Create New</a></li>
+									<li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="ViewAll">View Inactive</a></li>
+								}
+							</ul>
+						</div>
+						@if (isAdmin)
+						{
+							<div class="nav-item text-dark dropdown dropdownnav" style="margin-left: 1rem;">
+								<a asp-area="" asp-controller="Subjects" asp-action="Index">
+									<button class="btn btn-outline-dark dropdown-toggle"
+											type="button"
+											id="dropdownMenuButton"
+											data-mdb-toggle="dropdown"
+											aria-expanded="false">
+										Topics
+									</button>
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<li><a class="dropdown-item" asp-area="" asp-controller="Subjects" asp-action="Index">View All</a></li>
+									<li><a class="dropdown-item" asp-area="" asp-controller="Subjects" asp-action="Create">Create New</a></li>
+								</ul>
+							</div>
+							<div class="nav-item text-dark dropdown dropdownnav" style="margin-left: 1rem;">
+								<a asp-area="" asp-controller="Replies" asp-action="Index">
+									<button class="btn btn-outline-dark dropdown-toggle"
+											type="button"
+											id="dropdownMenuButton"
+											data-mdb-toggle="dropdown"
+											aria-expanded="false">
+										Messages
+									</button>
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<li><a class="dropdown-item" asp-area="" asp-controller="Replies" asp-action="Index">View All</a></li>
+									<li><a class="dropdown-item" asp-area="" asp-controller="Replies" asp-action="Create">Create New</a></li>
+								</ul>
+							</div>
+							<a class="nav-item text-dark btn btn-outline-dark" style="margin-left: 1rem;" asp-area="" asp-controller="Admin" asp-action="Index">Admin</a>
+						}
+					</ul>
+					<partial name="_LoginPartial" />
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2024 - W24_TP
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

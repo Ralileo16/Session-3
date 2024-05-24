@@ -1,0 +1,27 @@
+﻿@model IEnumerable<dynamic>
+
+<h1>Supplier Statistics</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Supplier Name</th>
+            <th>Number of Products</th>
+            <th>Max Price</th>
+            <th>Min Price</th>
+            <th>Avg Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.SupplierName</td>
+                <td>@item.NumberOfProducts</td>
+                <td>@item.MaxPrice</td>
+                <td>@item.MinPrice</td>
+                <td>@item.AvgPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>

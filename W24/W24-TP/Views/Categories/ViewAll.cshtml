@@ -1,0 +1,32 @@
+﻿@model IEnumerable<W24_TP.Models.Category>
+
+@{
+	ViewData["Title"] = "ViewAll";
+}
+
+<head>
+	<link rel="stylesheet" href="~/css/card.css" asp-append-version="true" />
+</head>
+
+<h1>All Inactive Characters</h1>
+
+<div class="flex-row flex-wrap justify-content-center" style="display: flex;">
+	@{
+		foreach (var cat in Model)
+			@if (!cat.Active)
+			{
+				<div class="card">
+					<img class="card-img-top @(cat.Stars == 5 ? "rarity-5" : "rarity-4")" src="../img/@cat.Img" alt="@cat.Name" />
+					<div class="card-body">
+						<h5 class="card-title">@cat.Name</h5>
+						<p class="card-text">@cat.Description</p>
+						<div class="d-flex justify-content-between">
+							<a href="#" class="btn btn-outline-primary card-btn flex-grow-1">Go to topics</a>
+							<a class="btn btn-outline-warning card-btn" asp-area="" asp-controller="Categories" asp-action="Edit" asp-route-id="@cat.Id"><i class="fa-solid fa-gear"></i></a>
+							<!--<a class="btn btn-outline-danger card-btn" asp-area="" asp-controller="Categories" asp-action="Delete" asp-route-id="@cat.Id"><i class="fa-solid fa-trash"></i></a>-->
+						</div>
+					</div>
+				</div>
+			}
+	}
+</div>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<W24_TP.Models.Reply>
+
+@{
+	ViewData["Title"] = "Index";
+	List<Subject> uniqueSubjects = Model
+		.Select(rep => rep.FkSubjectNavigation)
+		.Distinct()
+		.OrderByDescending(rep => rep.Date)
+		.ToList();
+}
+
+<style>
+	.active {
+		background: rgb(255,255,255);
+		background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,128,1) 100%);
+	}
+
+	.inactive {
+		background: rgb(255,255,255);
+		background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(220,20,60,1) 100%);
+	}
+</style>
+
+<h1>All Messages</h1>
+
+@foreach (var subject in uniqueSubjects)
+{
+	<p>
+		<button class="btn btn-lg btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#subject-@subject.Id" data-subject-id="@subject.Id" aria-expanded="false" aria-controls="collapseExample" style="min-width:20%">
+			@subject.Title
+		</button>
+	</p>
+	<div class="collapse" id="subject-@subject.Id" data-subject-id="@subject.Id">
+		@foreach (var rep in Model)
+		{
+			if (rep.FkSubjectNavigation?.Id == subject.Id)
+			{
+				<div class="card card-body @(rep.Active ? "active" : "inactive") " style="margin-bottom: 1rem;">
+					<div class="d-flex flex-row justify-content-between">
+						<h5 class="card-title" style="flex: 1;">ID : @rep.Id</h5>
+						<p class="card-title text-muted" style="flex: 1; text-align: center;">@rep.Date</p>
+						<h5 class="card-title" style="flex: 1; text-align: end;">u/@rep.FkUserNavigation!.UserName</h5>
+					</div>
+					<hr />
+					<div class="card-body">@Html.Raw(rep.Body)</div>
+					<hr />
+					<div class="d-flex flex-row justify-content-end">
+						<div>
+							<a class="btn btn-outline-warning card-btn" asp-area="" asp-controller="Replies" asp-action="Edit" asp-route-id="@rep.Id"><i class="fa-solid fa-gear"></i></a>
+							<a class="btn btn-outline-danger card-btn" asp-area="" asp-controller="Replies" asp-action="Delete" asp-route-id="@rep.Id"><i class="fa-solid fa-trash"></i></a>
+						</div>
+					</div>
+				</div>
+			}
+		}
+	</div>
+}

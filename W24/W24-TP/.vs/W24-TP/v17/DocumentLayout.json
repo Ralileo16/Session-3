@@ -1,0 +1,420 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|c:\\users\\ralileo\\desktop\\w24\\w24-tp\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\subjects\\indexpercat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\subjects\\indexpercat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\indexpersub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\indexpersub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\controllers\\repliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:controllers\\repliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\models\\reply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:models\\reply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\createpersub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\createpersub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ralileo\\AppData\\Local\\SourceServer\\fffb6524355c66a3dde36e88a27c3f338f6d127a4396f7c3453e18db592887db\\IdentityUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\replies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\replies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475EA8AC-C0E4-4C9C-9705-18BE56637E5C}|W24-TP.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndexPerSub.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\IndexPerSub.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\IndexPerSub.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\IndexPerSub.cshtml",
+              "RelativeToolTip": "Views\\Replies\\IndexPerSub.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T15:30:55.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SubjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\SubjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubjectsController.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\SubjectsController.cs",
+              "RelativeToolTip": "Controllers\\SubjectsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwCUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:59:25.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reply.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Models\\Reply.cs",
+              "RelativeDocumentMoniker": "Models\\Reply.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Models\\Reply.cs",
+              "RelativeToolTip": "Models\\Reply.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAIA4wBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:59:26.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexPerCat.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Subjects\\IndexPerCat.cshtml",
+              "RelativeDocumentMoniker": "Views\\Subjects\\IndexPerCat.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Subjects\\IndexPerCat.cshtml",
+              "RelativeToolTip": "Views\\Subjects\\IndexPerCat.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T13:48:17.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RepliesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\RepliesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RepliesController.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\RepliesController.cs",
+              "RelativeToolTip": "Controllers\\RepliesController.cs",
+              "ViewState": "AQIAACMBAAAAAAAAAAAQwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:46:18.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAIwLgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:28:10.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T13:28:06.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAcwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:27:45.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAiwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T13:27:36.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T12:57:07.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePerSub.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\CreatePerSub.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\CreatePerSub.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\CreatePerSub.cshtml",
+              "RelativeToolTip": "Views\\Replies\\CreatePerSub.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:15.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T13:40:42.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Models\\Program.cs",
+              "RelativeDocumentMoniker": "Models\\Program.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Models\\Program.cs",
+              "RelativeToolTip": "Models\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwBgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:49:13.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IdentityUser.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\AppData\\Local\\SourceServer\\fffb6524355c66a3dde36e88a27c3f338f6d127a4396f7c3453e18db592887db\\IdentityUser.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\fffb6524355c66a3dde36e88a27c3f338f6d127a4396f7c3453e18db592887db\\IdentityUser.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\AppData\\Local\\SourceServer\\fffb6524355c66a3dde36e88a27c3f338f6d127a4396f7c3453e18db592887db\\IdentityUser.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\fffb6524355c66a3dde36e88a27c3f338f6d127a4396f7c3453e18db592887db\\IdentityUser.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAmwCgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:28:45.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAAGoRAAAAAAAAAAAAAGoRAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-21T12:28:55.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Views\\Categories\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:29:05.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Replies\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:23.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\Replies\\EditUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:22.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Replies\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:20.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Details.cshtml",
+              "RelativeToolTip": "Views\\Replies\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:19.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\DeleteUser.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\DeleteUser.cshtml",
+              "RelativeToolTip": "Views\\Replies\\DeleteUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:18.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Replies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Replies\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Replies\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:28:18.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:27:50.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-21T12:27:43.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\W24\\W24-TP\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T22:30:01.058Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

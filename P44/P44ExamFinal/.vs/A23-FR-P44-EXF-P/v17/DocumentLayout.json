@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\a23-fr-p44-exf-p\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|solutionrelative:a23-fr-p44-exf-p\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|c:\\users\\ralileo\\desktop\\session 3\\p44\\a23-fr-p44-exf-p\\a23-fr-p44-exf-p\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|solutionrelative:a23-fr-p44-exf-p\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\a23-fr-p44-exf-p\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|solutionrelative:a23-fr-p44-exf-p\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\a23-fr-p44-exf-p\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F4752CA1-C72C-435A-9B50-81EA356E294F}|A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P.vbproj|solutionrelative:a23-fr-p44-exf-p\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form2.vb",
+              "RelativeDocumentMoniker": "A23-FR-P44-EXF-P\\Form2.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form2.vb",
+              "RelativeToolTip": "A23-FR-P44-EXF-P\\Form2.vb",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAgwIQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T14:47:43.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form2.vb",
+              "RelativeDocumentMoniker": "A23-FR-P44-EXF-P\\Form2.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form2.vb [Design]",
+              "RelativeToolTip": "A23-FR-P44-EXF-P\\Form2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T14:46:42.4Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form1.vb",
+              "RelativeDocumentMoniker": "A23-FR-P44-EXF-P\\Form1.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form1.vb [Design]",
+              "RelativeToolTip": "A23-FR-P44-EXF-P\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T12:18:00.438Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form1.vb",
+              "RelativeDocumentMoniker": "A23-FR-P44-EXF-P\\Form1.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\A23-FR-P44-EXF-P\\A23-FR-P44-EXF-P\\Form1.vb",
+              "RelativeToolTip": "A23-FR-P44-EXF-P\\Form1.vb",
+              "ViewState": "AQIAANQAAAAAAAAAAAAawOYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T12:18:00.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

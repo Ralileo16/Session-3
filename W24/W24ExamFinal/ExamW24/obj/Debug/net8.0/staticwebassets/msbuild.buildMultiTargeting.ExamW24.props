@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ExamW24.props" />
+</Project>

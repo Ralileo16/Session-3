@@ -1,0 +1,44 @@
+﻿@model IEnumerable<W24_TP.Models.Admin>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Username)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.SubjectCount)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.ReplyCount)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.LastSeen)
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Username)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.SubjectCount)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.ReplyCount)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.LastSeen)
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

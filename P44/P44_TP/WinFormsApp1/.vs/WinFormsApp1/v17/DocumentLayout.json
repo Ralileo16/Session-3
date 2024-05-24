@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmprogramme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|solutionrelative:frmprogramme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmprogramme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|solutionrelative:frmprogramme.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|c:\\users\\ralileo\\desktop\\session 3\\p44\\tp\\winformsapp1\\frmetudiant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|solutionrelative:frmetudiant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmetudiant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD932074-1FA3-4997-9862-E301DCDBB5CD}|WinFormsApp1.vbproj|solutionrelative:frmetudiant.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmProgramme.vb",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmProgramme.vb",
+              "RelativeDocumentMoniker": "frmProgramme.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmProgramme.vb",
+              "RelativeToolTip": "frmProgramme.vb",
+              "ViewState": "AQIAABwBAAAAAAAAAAAEwM8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T16:48:22.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmProgramme.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmProgramme.vb",
+              "RelativeDocumentMoniker": "frmProgramme.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmProgramme.vb [Design]",
+              "RelativeToolTip": "frmProgramme.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T16:33:10.414Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmEtudiant.vb",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmEtudiant.vb",
+              "RelativeDocumentMoniker": "frmEtudiant.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmEtudiant.vb",
+              "RelativeToolTip": "frmEtudiant.vb",
+              "ViewState": "AQIAAJcBAAAAAAAAAAAgwM0BAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-14T18:21:36.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEtudiant.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmEtudiant.vb",
+              "RelativeDocumentMoniker": "frmEtudiant.vb",
+              "ToolTip": "C:\\Users\\Ralileo\\Desktop\\Session 3\\P44\\TP\\WinFormsApp1\\frmEtudiant.vb [Design]",
+              "RelativeToolTip": "frmEtudiant.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T16:16:55.208Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

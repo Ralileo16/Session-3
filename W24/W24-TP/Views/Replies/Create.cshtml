@@ -1,0 +1,39 @@
+﻿@model W24_TP.Models.Reply
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Reply</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Subject Relation</label>
+                <select asp-for="FkSubject" class ="form-control" asp-items="ViewBag.FkSubject"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">User</label>
+                <input asp-for="FkUser" class="form-control" />
+                <span asp-validation-for="FkUser" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="max-height: 300px; overflow-y: auto;">
+                <label asp-for="Body" class="control-label"></label>
+                <textarea asp-for="Body" class="form-control" style="resize: none; overflow: auto; min-height: 12em;"></textarea>
+                <span asp-validation-for="Body" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Active" /> @Html.DisplayNameFor(model => model.Active)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
